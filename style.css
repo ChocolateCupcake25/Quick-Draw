@@ -3,7 +3,10 @@ body{
 }
 
 h1{
-    background-color: mediumaquamarine;
+    
+    color:#940338;
+    background-color: cornsilk;
+    font-weight: bold;
     
 }
 
@@ -45,7 +48,29 @@ h1{
     font-weight: bold;
 }
 
-canvas{
-    background-color: white;
-    border: black 2px solid;
+canvas 
+  {
+    border:5px solid white;
+    border-radius:20px;
+    margin-top:150px;
+    box-shadow:5px 5px 5px grey;
+    box-shadow: 1px 1px 38px #ffffff;
+    animation-name: example;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
 }
+@keyframes example {
+
+  from {box-shadow: 1px 1px 38px rgb(152, 6, 236);}
+  to {box-shadow: 1px 1px 38px rgb(80, 12, 82);}
+
+}
+
+
+p, span
+  {
+    padding-top:10px;
+    font-family: 'Special Elite', fantasy;
+    
+    
+  }
